@@ -1,6 +1,6 @@
 ﻿namespace Multitool
 {
-    partial class Form1
+    partial class Multitool
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("");
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Multitool));
             this.LookupPanel = new System.Windows.Forms.Panel();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.SearchButton = new System.Windows.Forms.Button();
@@ -195,7 +196,7 @@
             this.listView1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.listView1.HideSelection = false;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem3});
+            listViewItem1});
             this.listView1.Location = new System.Drawing.Point(78, 94);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(776, 348);
@@ -406,7 +407,7 @@
             this.ScannerShow.UseVisualStyleBackColor = true;
             this.ScannerShow.Click += new System.EventHandler(this.ScannerShow_Click);
             // 
-            // Form1
+            // Multitool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -418,9 +419,10 @@
             this.Controls.Add(this.PortScannerPanel);
             this.Controls.Add(this.NetworkMonitorPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Multitool";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.LookupPanel.ResumeLayout(false);
